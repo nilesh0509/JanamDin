@@ -1,13 +1,16 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Happy Birthday Mam</title>
-		<link rel="stylesheet" href="style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Mam</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 <body>
-	<audio autoplay loop>
+    <audio autoplay loop>
 		<source src="music.mp3" type="audio/mp3">
 	</audio>
+	<canvas id="Canvas"></canvas>
 	<section class="fireworks" id="sec1"></section>
 	<section class="content" id="sec2">
 		<h2>
@@ -35,7 +38,8 @@
             </h2>
         </div>
 	</section>
-	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="app.js"></script>
+	<!-- <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript">
 		$('.fireworks').fireworks({ 
@@ -44,6 +48,6 @@
 		  width: '100%', 
 		  height: '100%' 
 		});
-	</script>
+	</script> -->
 </body>
 </html>
